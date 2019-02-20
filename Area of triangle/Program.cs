@@ -19,7 +19,7 @@ namespace Area_of_triangle
 
             double P = (sideA + sideB + sideC) / 2;
             double Area = Math.Sqrt((P*(P - sideA)*(P - sideB)*(P - sideC)));
-            Console.WriteLine(Area);
+            Console.WriteLine("Area=" + Area);
             Console.ReadKey();
 
 
